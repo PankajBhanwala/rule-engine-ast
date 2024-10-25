@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+frontend/node_modules/
+rule-engine-node/node_modules/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Frontend specific
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# React Native specific
+.expo/
+web-build/
+
+# Lint & config
+eslintcache
+.prettiercache
+
+# Optional npm cache directory
+.npm/
+
+# Yarn Integrity file
+.yarn-integrity
+
